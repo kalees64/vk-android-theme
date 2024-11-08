@@ -1,0 +1,21 @@
+<!-- @if (color) {
+<button [type]="type" [disabled]="disabled" class="vk-btn-{{ color }}">
+  <ng-content></ng-content>
+</button>
+} @else if(color && !gradient){
+<button [type]="type" [disabled]="disabled" class="vk-btn-{{ color }}">
+  <ng-content></ng-content>
+</button>
+} @else if(color && gradient){
+<button [type]="type" [disabled]="disabled" class="vk-btn-{{ color }}-g">
+  <ng-content></ng-content>
+</button>
+}@else {
+<button [type]="type" [disabled]="disabled" class="vk-btn">
+  <ng-content></ng-content>
+</button>
+} -->
+
+<button [type]="type" [disabled]="disabled" class="vk-btn-{{ color }}">
+  <ng-content></ng-content>
+</button>
