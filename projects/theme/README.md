@@ -32,7 +32,7 @@ import { VkButtonComponent } from '@kalees64/vk-theme';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ ButtonComponent, CommonModule],
+  imports: [ VkButtonComponent, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -41,7 +41,7 @@ import { VkButtonComponent } from '@kalees64/vk-theme';
 app.component.html
 
 ```javascript
-<vk-button label="Button" variant="danger"></-button>
+<vk-button>Button</vk-button>
 ```
 
 ## Documentation

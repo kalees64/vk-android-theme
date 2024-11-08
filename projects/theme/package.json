@@ -5,6 +5,15 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "angular",
+    "storybook",
+    "angular-component",
+    "typescript",
+    "@kalees64",
+    "kalees64",
+    "vk-theme"
+  ],
   "peerDependencies": {
     "@angular/common": "^18.2.0",
     "@angular/core": "^18.2.0",
