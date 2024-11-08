@@ -21,3 +21,7 @@ export * from './lib/components/vk-h6/vk-h6.component';
 export * from './lib/components/vk-card-title/vk-card-title.component';
 export * from './lib/components/vk-card-text/vk-card-text.component';
 export * from './lib/components/vk-card/vk-card.component';
+export * from './lib/components/vk-link/vk-link.component';
+export * from './lib/components/vk-sidebar-link/vk-sidebar-link.component';
+export * from './lib/components/vk-label/vk-label.component';
+export * from './lib/components/vk-input/vk-input.component';

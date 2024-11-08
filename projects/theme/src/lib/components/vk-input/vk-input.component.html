@@ -1,0 +1,16 @@
+<input
+  [type]="type"
+  [placeholder]="placeholder"
+  [disabled]="disabled"
+  [readOnly]="readonly"
+  class="{{
+    !this.valid && !this.invalid
+      ? 'vk-form-input'
+      : this.valid
+      ? 'vk-form-input-valid'
+      : this.invalid
+      ? 'vk-form-input-invalid'
+      : 'vk-form-input'
+  }}"
+  [value]="value"
+/>

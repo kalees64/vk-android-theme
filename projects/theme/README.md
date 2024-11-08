@@ -56,6 +56,12 @@ Read the below documentation for more knowledge about the components.
 - Button Gradient
 - Badge
 - Card
+- Card Title
+- Card Text
 - Headings [ h1 , h2, h3, h4, h5, h6 ]
 - Alert
 - Alert Box
+- Forn Input
+- Form Label
+- Link
+- Sidebar Link
