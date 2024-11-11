@@ -1,0 +1,14 @@
+<div class="relative">
+  <button
+    type="menu"
+    class="vk-card-with-actions-button rotate-90"
+    (click)="btnClick()"
+  >
+    ...
+  </button>
+  @if(menu){
+  <div class="vk-hidden-menu bg-inherit">
+    <ng-content></ng-content>
+  </div>
+  }
+</div>

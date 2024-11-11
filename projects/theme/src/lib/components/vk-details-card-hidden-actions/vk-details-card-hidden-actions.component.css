@@ -1,0 +1,6 @@
+.hidden-buttons {
+  @apply absolute right-10 bg-white w-40  rounded-lg border p-2;
+}
+/* .hidden-buttons {
+  @apply absolute -rotate-90 z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700;
+} */

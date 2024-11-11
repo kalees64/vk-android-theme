@@ -1,0 +1,7 @@
+<button type="button" class="vk-card-with-actions-button">
+  @if(src !== null){
+  <img [src]="src" [alt]="alt" [width]="width" [height]="height" />
+  } @if(icon !== null){
+  <fa-icon [icon]="['fas', icon]" size="xs"></fa-icon>
+  }
+</button>

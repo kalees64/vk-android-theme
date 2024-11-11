@@ -1,0 +1,29 @@
+<section class="vk-card-with-actions-{{ color }}">
+  <div>
+    <!-- <h1 class="vk-card-with-actions-title">{{ name }}</h1> -->
+    <ng-content select="[title]"></ng-content>
+
+    <!-- <div class="flex gap-4 items-center">
+      <button
+        type="button"
+        class="vk-card-with-actions-button"
+        (click)="alertPop()"
+      >
+        <img
+          src="https://icons.veryicon.com/png/o/miscellaneous/o2o-middle-school-project/plus-104.png"
+          alt="plus icon"
+          width="20"
+          height="20"
+        />
+      </button>
+      <button type="button" class="vk-card-with-actions-button rotate-90">
+        ...
+      </button>
+    </div> -->
+
+    <ng-content select="[actions]"></ng-content>
+  </div>
+  <div class="w-full">
+    <ng-content select="[content]"></ng-content>
+  </div>
+</section>
