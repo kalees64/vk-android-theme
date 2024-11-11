@@ -65,3 +65,5 @@ Read the below documentation for more knowledge about the components.
 - Form Label
 - Link
 - Sidebar Link
+- Card with actions
+- Card with hidden actions
