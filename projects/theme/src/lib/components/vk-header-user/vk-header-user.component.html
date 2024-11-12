@@ -1,0 +1,12 @@
+<div class="vk-header-flex">
+  <div class="vk-header-flex">
+    @if(src!==null){
+    <img [src]="src" [alt]="alt" class="vk-logo" />
+    } @if(icon!==null){
+    <fa-icon [icon]="['fas', icon]" size="xs"></fa-icon>
+    }
+    <a href="#" class="vk-header-username">
+      <ng-content></ng-content>
+    </a>
+  </div>
+</div>

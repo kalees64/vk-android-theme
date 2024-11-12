@@ -1,0 +1,47 @@
+<header class="vk-header-{{ color }} shadow">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <ng-content select="[nav-logo]"></ng-content>
+        <h1 class="vk-nav-brand">
+          <ng-content select="[nav-brand]"></ng-content>
+        </h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden" id="left-links">
+        <ng-content select="[links-left]"></ng-content>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <ng-content select="[links-right]"></ng-content>
+      </div>
+      <div class="vk-header-flex">
+        <ng-content select="[user]"></ng-content>
+        <button class="vk-btn max-lg:hidden" (click)="logoutFn()">
+          Logout
+        </button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button
+          type="menu"
+          class="rotate-90 font-bold"
+          (click)="menuBtnClick()"
+        >
+          |||
+        </button>
+      </div>
+    </div>
+  </nav>
+  @if(menu){
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <ng-content select="[menu]"></ng-content>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn lg:hidden" (click)="logoutFn()">
+        Logout
+      </button>
+    </div>
+  </div>
+  }
+</header>

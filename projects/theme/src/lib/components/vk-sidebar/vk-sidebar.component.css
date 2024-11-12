@@ -1,0 +1,19 @@
+.vk-sidebar {
+  @apply h-dvh w-96 overflow-hidden shadow border-r;
+}
+
+.vk-close-button {
+  @apply block text-4xl font-extralight font-mono text-gray-800;
+}
+
+.vk-sidebar-default {
+  @apply h-dvh w-80 overflow-hidden shadow border-r;
+}
+
+.vk-sidebar-small {
+  @apply h-dvh w-64 overflow-hidden shadow border-r;
+}
+
+.vk-sidebar-large {
+  @apply h-dvh w-96 overflow-hidden shadow border-r;
+}

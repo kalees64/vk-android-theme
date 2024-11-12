@@ -37,3 +37,11 @@ export * from './lib/components/vk-details-card-title/vk-details-card-title.comp
 export * from './lib/components/vk-details-card-hidden-actions/vk-details-card-hidden-actions.component';
 export * from './lib/components/vk-details-card-hidden-action/vk-details-card-hidden-action.component';
 export * from './lib/components/vk-details-card-hidden-link/vk-details-card-hidden-link.component';
+export * from './lib/components/vk-header/vk-header.component';
+export * from './lib/components/vk-header-links-left/vk-header-links-left.component';
+export * from './lib/components/vk-header-links-right/vk-header-links-right.component';
+export * from './lib/components/vk-header-user/vk-header-user.component';
+export * from './lib/components/vk-header-menu/vk-header-menu.component';
+export * from './lib/components/vk-header-menu-link/vk-header-menu-link.component';
+export * from './lib/components/vk-card-widget/vk-card-widget.component';
+export * from './lib/components/vk-sidebar/vk-sidebar.component';

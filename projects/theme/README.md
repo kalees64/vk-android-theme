@@ -67,3 +67,6 @@ Read the below documentation for more knowledge about the components.
 - Sidebar Link
 - Card with actions
 - Card with hidden actions
+- Card Widget
+- Sidebar
+- Header

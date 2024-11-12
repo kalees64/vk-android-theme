@@ -1,0 +1,18 @@
+<aside
+  class=" {{ menu ? 'vk-sidebar-default' : 'w-0' }} bg-{{
+    color === 'default' ? 'white' : color === 'dark' ? 'gray' : color
+  }}-600 border-{{
+    color === 'default' ? 'white' : color === 'dark' ? 'gray' : color
+  }}-600 "
+>
+  <div class="p-3 flex justify-between items-baseline">
+    <h1 class="vk-h4">
+      <ng-content select="[brand]"></ng-content>
+    </h1>
+    <button class="vk-close-button" (click)="closeMenu()">x</button>
+  </div>
+  <hr />
+  <div class="w-full h-full p-3">
+    <ng-content select="[links]"></ng-content>
+  </div>
+</aside>

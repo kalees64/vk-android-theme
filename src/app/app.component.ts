@@ -11,6 +11,8 @@ import {
   FaIconLibrary,
 } from '@fortawesome/angular-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { VkSidebarComponent } from '../../projects/theme/src/lib/components/vk-sidebar/vk-sidebar.component';
+import { VkSidebarLinkComponent } from '../../projects/theme/src/lib/components/vk-sidebar-link/vk-sidebar-link.component';
 
 @Component({
   selector: 'app-root',
@@ -23,6 +25,8 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
     VkDetailsCardHiddenActionsComponent,
     VkDetailsCardHiddenActionComponent,
     FontAwesomeModule,
+    VkSidebarComponent,
+    VkSidebarLinkComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

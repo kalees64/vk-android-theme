@@ -1,49 +1,9 @@
-<div class="p-4 flex flex-col gap-4 bg-slate-300">
-  <vk-details-card>
-    <vk-details-card-title title>Books List</vk-details-card-title>
-
-    <vk-details-card-actions actions>
-      <vk-details-card-action
-        (click)="handleClick()"
-        src="https://static.thenounproject.com/png/687044-200.png"
-        alt="Edit"
-      ></vk-details-card-action>
-      <vk-details-card-action
-        (click)="handleClick()"
-        icon="rotate"
-      ></vk-details-card-action>
-      <vk-details-card-action
-        src="https://icons.veryicon.com/png/128/miscellaneous/gameui/icon_-hall.png"
-        alt="Home"
-        (click)="handleClick()"
-      ></vk-details-card-action>
-    </vk-details-card-actions>
-
-    <div content class="w-full h-40 bg-blue-600 text-white">
-      Remaining is Content space
+<div class="bg-slate-300 flex">
+  <vk-sidebar color="red">
+    <span brand>Brand Name</span>
+    <div links>
+      <vk-sidebar-link href="#">Profile</vk-sidebar-link>
     </div>
-  </vk-details-card>
-  <vk-details-card>
-    <vk-details-card-title title>Books List</vk-details-card-title>
-
-    <vk-details-card-hidden-actions actions>
-      <vk-details-card-hidden-action (click)="handleClick()"
-        >Edit</vk-details-card-hidden-action
-      >
-      <vk-details-card-hidden-action (click)="handleClick()"
-        >Delete</vk-details-card-hidden-action
-      >
-      <vk-details-card-hidden-action (click)="handleClick()"
-        >Home</vk-details-card-hidden-action
-      >
-    </vk-details-card-hidden-actions>
-
-    <div content class="w-full h-40 bg-blue-600 text-white">
-      Remaining is Content space
-    </div>
-  </vk-details-card>
-</div>
-
-<div class="p-10">
-  <fa-icon [icon]="['fas', 'coffee']"></fa-icon>
+  </vk-sidebar>
+  <div class="flex-1 h-dvh bg-red-500"></div>
 </div>
