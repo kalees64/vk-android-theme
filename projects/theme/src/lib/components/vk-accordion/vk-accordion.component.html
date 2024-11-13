@@ -1,0 +1,15 @@
+<details class="vk-accordion-{{ color }}">
+  <summary (click)="rotateIcon()">
+    <span>{{ title }}</span>
+    @if(!icon){
+    <span class="">
+      <fa-icon [icon]="['fas', 'caret-right']" size="xs"></fa-icon>
+    </span>
+    } @if(icon){
+    <span class="">
+      <fa-icon [icon]="['fas', 'caret-down']" size="xs"></fa-icon>
+    </span>
+    }
+  </summary>
+  <ng-content></ng-content>
+</details>

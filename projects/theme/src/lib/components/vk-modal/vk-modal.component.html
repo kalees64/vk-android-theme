@@ -1,0 +1,32 @@
+<button type="button" class="vk-btn-blue-g" (click)="openModal()">
+  Open Modal
+</button>
+@if(modal){
+<section class="vk-modal-{{ position }}" #vkmodal (click)="closeModal()">
+  <article
+    class="vk-modal-popup-{{ position }}"
+    (click)="$event.stopPropagation()"
+  >
+    <header class="vk-modal-header">
+      <ng-content select="[title]"></ng-content>
+      <button type="button" (click)="closeModal()">
+        <fa-icon [icon]="['fas', 'xmark']"></fa-icon>
+      </button>
+    </header>
+    <hr />
+    <ng-content select="[body]"></ng-content>
+    <hr />
+    <ng-content select="[footer]"></ng-content>
+    <section class="p-5 w-full flex items-center gap-3 justify-end">
+      <ng-content select="[buttons]"></ng-content>
+      <button
+        type="button"
+        class="vk-btn-red float-right"
+        (click)="closeModal()"
+      >
+        Close
+      </button>
+    </section>
+  </article>
+</section>
+}

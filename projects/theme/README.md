@@ -70,3 +70,6 @@ Read the below documentation for more knowledge about the components.
 - Card Widget
 - Sidebar
 - Header
+- Accordion
+- Breadcrumb
+- Modal

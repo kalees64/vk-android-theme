@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { VkDetailsCardComponent } from '../../projects/theme/src/lib/components/vk-details-card/vk-details-card.component';
 import { VkDetailsCardTitleComponent } from '../../projects/theme/src/lib/components/vk-details-card-title/vk-details-card-title.component';
 import { VkDetailsCardActionsComponent } from '../../projects/theme/src/lib/components/vk-details-card-actions/vk-details-card-actions.component';
@@ -13,6 +13,11 @@ import {
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { VkSidebarComponent } from '../../projects/theme/src/lib/components/vk-sidebar/vk-sidebar.component';
 import { VkSidebarLinkComponent } from '../../projects/theme/src/lib/components/vk-sidebar-link/vk-sidebar-link.component';
+import { VkModalComponent } from '../../projects/theme/src/lib/components/vk-modal/vk-modal.component';
+import { VkModalTitleComponent } from '../../projects/theme/src/lib/components/vk-modal-title/vk-modal-title.component';
+import { VkModalBodyComponent } from '../../projects/theme/src/lib/components/vk-modal-body/vk-modal-body.component';
+import { VkModalButtonsComponent } from '../../projects/theme/src/lib/components/vk-modal-buttons/vk-modal-buttons.component';
+import { VkButtonComponent } from '../../projects/theme/src/lib/components/vk-button/vk-button.component';
 
 @Component({
   selector: 'app-root',
@@ -27,6 +32,11 @@ import { VkSidebarLinkComponent } from '../../projects/theme/src/lib/components/
     FontAwesomeModule,
     VkSidebarComponent,
     VkSidebarLinkComponent,
+    VkModalComponent,
+    VkModalTitleComponent,
+    VkModalBodyComponent,
+    VkModalButtonsComponent,
+    VkButtonComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
@@ -40,5 +50,15 @@ export class AppComponent {
 
   handleClick() {
     alert('I am Clicked');
+  }
+
+  @ViewChild('vkmodal') modal!: VkModalComponent;
+
+  showModal() {
+    this.modal.openModal();
+  }
+
+  hideModal() {
+    this.modal.closeModal();
   }
 }

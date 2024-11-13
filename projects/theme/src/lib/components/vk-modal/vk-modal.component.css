@@ -1,0 +1,35 @@
+.vk-modal {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-modal-popup {
+  @apply w-11/12 lg:w-6/12 mx-auto mt-5 border rounded-lg bg-white;
+}
+
+.vk-modal-header {
+  @apply p-5 flex items-center justify-between;
+}
+
+.vk-modal-default {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-modal-popup-default {
+  @apply w-11/12 lg:w-6/12 mx-auto mt-5 border rounded-lg bg-white;
+}
+
+.vk-modal-top {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-modal-popup-top {
+  @apply w-11/12 lg:w-6/12 mx-auto mt-5 border rounded-lg bg-white;
+}
+
+.vk-modal-center {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30 flex items-center justify-center;
+}
+
+.vk-modal-popup-center {
+  @apply w-11/12 lg:w-6/12 mx-auto border rounded-lg bg-white;
+}
