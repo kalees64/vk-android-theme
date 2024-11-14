@@ -1,0 +1,10 @@
+<button
+  (click)="selectTab()"
+  [class.active]="tabs.activeTab === value"
+  [ngClass]="[
+    'vk-tabs-trigger-' + color,
+    tabs.activeTab === value ? 'vk-tabs-trigger-active-' + color : ''
+  ]"
+>
+  <ng-content></ng-content>
+</button>

@@ -5,7 +5,7 @@
       <vk-sidebar-link href="#">Profile</vk-sidebar-link>
     </div>
   </vk-sidebar>
-  <div class="flex-1 h-dvh bg-red-500">
+  <div class="flex-1 h-dvh bg-white">
     <details class="vk-accordion">
       <summary>Accordian</summary>
       <p>
@@ -35,5 +35,24 @@
         <vk-button color="cyan" (click)="hideModal()">Custom Close</vk-button>
       </vk-modal-buttons>
     </vk-modal>
+
+    <button>One</button>
+
+    <vk-tabs defaultValue="account">
+      <vk-tabs-list tabs-list>
+        <vk-tabs-trigger value="account">Account</vk-tabs-trigger>
+        <vk-tabs-trigger value="password">Password</vk-tabs-trigger>
+      </vk-tabs-list>
+
+      <vk-tabs-content value="account" tabs-content>
+        <h1 class="vk-h1">Account Content</h1>
+      </vk-tabs-content>
+
+      <vk-tabs-content value="password" tabs-content>
+        <h1 class="vk-h1">Password Content</h1>
+      </vk-tabs-content>
+    </vk-tabs>
+
+    <button>two</button>
   </div>
 </div>

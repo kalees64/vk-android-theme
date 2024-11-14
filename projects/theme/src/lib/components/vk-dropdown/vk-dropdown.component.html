@@ -1,0 +1,20 @@
+<article class="vk-dropdown-{{ position }}">
+  <vk-button color="{{ color }}" (click)="toggleDropdown()">
+    <span>{{ label }}</span
+    >&nbsp; @if(position === 'bottom' || position==='default'){
+    <fa-icon [icon]="['fas', 'caret-down']"></fa-icon>
+    } @if(position === 'top'){
+    <fa-icon [icon]="['fas', 'caret-up']"></fa-icon>
+    }@if(position === 'left'){
+    <fa-icon [icon]="['fas', 'caret-left']"></fa-icon>
+    }@if(position === 'right'){
+    <fa-icon [icon]="['fas', 'caret-right']"></fa-icon>
+    }
+  </vk-button>
+
+  @if(dropdown){
+  <section class="vk-dropdown-menu-{{ position }}">
+    <ng-content></ng-content>
+  </section>
+  }
+</article>

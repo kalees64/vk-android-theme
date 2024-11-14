@@ -1,0 +1,27 @@
+<vk-button color="{{ btnColor }}" (click)="openCanvas()">{{
+  btnLabel
+}}</vk-button>
+
+@if(canvas){
+<section
+  class="vk-offcanvas-{{ position }}"
+  #vkoffcanvas
+  (click)="closeCanvas()"
+>
+  <article
+    class="vk-offcanvas-slide-{{ position }}"
+    (click)="$event.stopPropagation()"
+  >
+    <header class="vk-offcanvas-header">
+      <ng-content select="[title]"></ng-content>
+      <button type="button" (click)="closeCanvas()">
+        <fa-icon [icon]="['fas', 'xmark']"></fa-icon>
+      </button>
+    </header>
+    <hr />
+    <section class="vk-offcanvas-body">
+      <ng-content select="[body]"></ng-content>
+    </section>
+  </article>
+</section>
+}

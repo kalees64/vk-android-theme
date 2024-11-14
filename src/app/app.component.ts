@@ -18,6 +18,10 @@ import { VkModalTitleComponent } from '../../projects/theme/src/lib/components/v
 import { VkModalBodyComponent } from '../../projects/theme/src/lib/components/vk-modal-body/vk-modal-body.component';
 import { VkModalButtonsComponent } from '../../projects/theme/src/lib/components/vk-modal-buttons/vk-modal-buttons.component';
 import { VkButtonComponent } from '../../projects/theme/src/lib/components/vk-button/vk-button.component';
+import { VkTabsComponent } from '../../projects/theme/src/lib/components/vk-tabs/vk-tabs.component';
+import { VkTabsListComponent } from '../../projects/theme/src/lib/components/vk-tabs-list/vk-tabs-list.component';
+import { VkTabsTriggerComponent } from '../../projects/theme/src/lib/components/vk-tabs-trigger/vk-tabs-trigger.component';
+import { VkTabsContentComponent } from '../../projects/theme/src/lib/components/vk-tabs-content/vk-tabs-content.component';
 
 @Component({
   selector: 'app-root',
@@ -37,6 +41,10 @@ import { VkButtonComponent } from '../../projects/theme/src/lib/components/vk-bu
     VkModalBodyComponent,
     VkModalButtonsComponent,
     VkButtonComponent,
+    VkTabsComponent,
+    VkTabsListComponent,
+    VkTabsTriggerComponent,
+    VkTabsContentComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

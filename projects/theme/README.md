@@ -73,3 +73,6 @@ Read the below documentation for more knowledge about the components.
 - Accordion
 - Breadcrumb
 - Modal
+- Dropdown
+- Offcanvas
+- Tabs

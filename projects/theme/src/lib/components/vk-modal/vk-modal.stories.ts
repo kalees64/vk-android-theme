@@ -92,7 +92,7 @@ export const ModalWithFooter: Story = {
 
 export const ModalWithMoreButtons: Story = {
   render: () => ({
-    template: `<vk-modal position="top">
+    template: `<vk-modal position="top" btnColor="red" btnLabel="Model With More Buttons">
     <vk-modal-title title>Modal Title</vk-modal-title>
     <vk-modal-body body>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quod
         veniam blanditiis iusto? Tempore assumenda reprehenderit in placeat

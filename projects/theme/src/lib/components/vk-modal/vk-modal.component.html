@@ -1,6 +1,6 @@
-<button type="button" class="vk-btn-blue-g" (click)="openModal()">
-  Open Modal
-</button>
+<vk-button color="{{ btnColor }}" (click)="openModal()">{{
+  btnLabel
+}}</vk-button>
 @if(modal){
 <section class="vk-modal-{{ position }}" #vkmodal (click)="closeModal()">
   <article

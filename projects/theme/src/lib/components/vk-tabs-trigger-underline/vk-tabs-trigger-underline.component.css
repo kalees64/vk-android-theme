@@ -1,0 +1,127 @@
+.vk-tabs-trigger-underline {
+  @apply border-b-2 border-transparent text-white/50 pb-2;
+}
+
+.vk-tabs-trigger-underline-active {
+  @apply border-b-2 border-white text-white pb-2;
+}
+
+.vk-tabs-trigger-underline-default {
+  @apply border-b-2 border-transparent text-white/50 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-default {
+  @apply border-b-2 border-white text-white pb-2;
+}
+
+.vk-tabs-trigger-underline-black {
+  @apply border-b-2 border-transparent text-gray-500 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-black {
+  @apply border-b-2 border-black text-black pb-2;
+}
+
+.vk-tabs-trigger-underline-blue {
+  @apply border-b-2 border-transparent text-blue-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-blue {
+  @apply border-b-2 border-blue-600 text-blue-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-red {
+  @apply border-b-2 border-transparent text-red-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-red {
+  @apply border-b-2 border-red-600 text-red-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-rose {
+  @apply border-b-2 border-transparent text-rose-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-rose {
+  @apply border-b-2 border-rose-600 text-rose-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-pink {
+  @apply border-b-2 border-transparent text-pink-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-pink {
+  @apply border-b-2 border-pink-600 text-pink-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-green {
+  @apply border-b-2 border-transparent text-green-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-green {
+  @apply border-b-2 border-green-600 text-green-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-lime {
+  @apply border-b-2 border-transparent text-lime-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-lime {
+  @apply border-b-2 border-lime-600 text-lime-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-teal {
+  @apply border-b-2 border-transparent text-teal-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-teal {
+  @apply border-b-2 border-teal-600 text-teal-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-orange {
+  @apply border-b-2 border-transparent text-orange-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-orange {
+  @apply border-b-2 border-orange-600 text-orange-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-violet {
+  @apply border-b-2 border-transparent text-violet-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-violet {
+  @apply border-b-2 border-violet-600 text-violet-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-purple {
+  @apply border-b-2 border-transparent text-purple-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-purple {
+  @apply border-b-2 border-purple-600 text-purple-600 pb-2;
+}
+
+.vk-tabs-trigger-underline-yellow {
+  @apply border-b-2 border-transparent text-yellow-300 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-yellow {
+  @apply border-b-2 border-yellow-400 text-yellow-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-cyan {
+  @apply border-b-2 border-transparent text-cyan-300 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-cyan {
+  @apply border-b-2 border-cyan-400 text-cyan-400 pb-2;
+}
+
+.vk-tabs-trigger-underline-sky {
+  @apply border-b-2 border-transparent text-sky-300 pb-2;
+}
+
+.vk-tabs-trigger-underline-active-sky {
+  @apply border-b-2 border-sky-400 text-sky-400 pb-2;
+}

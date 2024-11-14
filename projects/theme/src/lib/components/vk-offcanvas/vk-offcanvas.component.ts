@@ -7,28 +7,28 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { VkButtonComponent } from '../vk-button/vk-button.component';
 
 @Component({
-  selector: 'vk-modal',
+  selector: 'vk-offcanvas',
   standalone: true,
   imports: [FontAwesomeModule, VkButtonComponent],
-  templateUrl: './vk-modal.component.html',
-  styleUrl: './vk-modal.component.css',
+  templateUrl: './vk-offcanvas.component.html',
+  styleUrl: './vk-offcanvas.component.css',
 })
-export class VkModalComponent {
+export class VkOffcanvasComponent {
   constructor(icons: FaIconLibrary) {
     icons.addIconPacks(fas);
   }
 
-  @Input() position: string = 'top';
-  @Input() btnLabel: string = 'Open Model';
+  @Input() btnLabel: string = 'Open Canvas';
   @Input() btnColor: string = 'blue';
+  @Input() position: string = 'left';
 
-  modal: boolean = false;
+  canvas: boolean = false;
 
-  openModal() {
-    this.modal = true;
+  openCanvas() {
+    this.canvas = true;
   }
 
-  closeModal() {
-    this.modal = false;
+  closeCanvas() {
+    this.canvas = false;
   }
 }

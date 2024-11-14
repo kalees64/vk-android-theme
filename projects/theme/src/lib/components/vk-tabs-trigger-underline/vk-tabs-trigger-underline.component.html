@@ -1,0 +1,10 @@
+<button
+  (click)="selectTab()"
+  [class.active]="tabs.activeTab === value"
+  [ngClass]="[
+    'vk-tabs-trigger-underline-' + color,
+    tabs.activeTab === value ? 'vk-tabs-trigger-underline-active-' + color : ''
+  ]"
+>
+  <ng-content></ng-content>
+</button>
