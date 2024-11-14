@@ -5,8 +5,8 @@ import {
   StoryObj,
 } from '@storybook/angular';
 import { VkSidebarComponent } from './vk-sidebar.component';
-import { VkSidebarLinkComponent } from 'theme';
 import { provideRouter } from '@angular/router';
+import { VkSidebarLinkComponent } from '../vk-sidebar-link/vk-sidebar-link.component';
 
 const meta: Meta = {
   title: 'Sidebar',

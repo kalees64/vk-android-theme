@@ -3,8 +3,8 @@ import { VkModalComponent } from './vk-modal.component';
 import { VkModalTitleComponent } from '../vk-modal-title/vk-modal-title.component';
 import { VkModalBodyComponent } from '../vk-modal-body/vk-modal-body.component';
 import { VkModalFooterComponent } from '../vk-modal-footer/vk-modal-footer.component';
-import { VkButtonComponent } from 'theme';
 import { VkModalButtonsComponent } from '../vk-modal-buttons/vk-modal-buttons.component';
+import { VkButtonComponent } from '../vk-button/vk-button.component';
 
 const meta: Meta = {
   title: 'Modal',

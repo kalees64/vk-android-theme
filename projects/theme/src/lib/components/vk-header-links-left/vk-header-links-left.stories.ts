@@ -5,8 +5,8 @@ import {
   StoryObj,
 } from '@storybook/angular';
 import { VkHeaderLinksLeftComponent } from './vk-header-links-left.component';
-import { VkLinkComponent } from 'theme';
 import { provideRouter } from '@angular/router';
+import { VkLinkComponent } from '../vk-link/vk-link.component';
 
 const meta: Meta = {
   title: 'Header Links Left',

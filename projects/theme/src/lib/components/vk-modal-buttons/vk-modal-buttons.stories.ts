@@ -1,6 +1,6 @@
 import { Meta, moduleMetadata, StoryObj } from '@storybook/angular';
 import { VkModalButtonsComponent } from './vk-modal-buttons.component';
-import { VkButtonComponent } from 'theme';
+import { VkButtonComponent } from '../vk-button/vk-button.component';
 
 const meta: Meta = {
   title: 'Modal Buttons',

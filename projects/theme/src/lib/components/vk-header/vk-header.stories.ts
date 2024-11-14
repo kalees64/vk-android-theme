@@ -5,17 +5,16 @@ import {
   StoryObj,
 } from '@storybook/angular';
 import { VkHeaderComponent } from './vk-header.component';
-import {
-  VkLinkComponent,
-  VkNavBrandComponent,
-  VkNavLogoComponent,
-} from 'theme';
+
 import { VkHeaderLinksLeftComponent } from '../vk-header-links-left/vk-header-links-left.component';
 import { VkHeaderLinksRightComponent } from '../vk-header-links-right/vk-header-links-right.component';
 import { VkHeaderUserComponent } from '../vk-header-user/vk-header-user.component';
 import { provideRouter } from '@angular/router';
 import { VkHeaderMenuComponent } from '../vk-header-menu/vk-header-menu.component';
 import { VkHeaderMenuLinkComponent } from '../vk-header-menu-link/vk-header-menu-link.component';
+import { VkNavBrandComponent } from '../vk-nav-brand/vk-nav-brand.component';
+import { VkNavLogoComponent } from '../vk-nav-logo/vk-nav-logo.component';
+import { VkLinkComponent } from '../vk-link/vk-link.component';
 
 const meta: Meta = {
   title: 'Header',
