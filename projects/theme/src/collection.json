@@ -1,0 +1,9 @@
+{
+  "$schema": "../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "add-cdn": {
+      "description": "Adds a CDN link to the styles.css file",
+      "factory": "./add-cdn/index#addCdn"
+    }
+  }
+}
