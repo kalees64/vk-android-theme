@@ -8,6 +8,12 @@ This project serves as a UI component library for Angular applications, leveragi
 
 ## Installation
 
+Install VK-THEME with cdn and npm files
+
+```bash
+  ng add @kalees64/vk-theme
+```
+
 Install my-project with npm
 
 ```bash
@@ -19,6 +25,10 @@ Copy the css file path and paste it to your style.css file
 ```css
 @import url("https://kalees64.github.io/vk-cdn/vk-cdn.css");
 ```
+
+## Tutorial
+
+[![Watch the video](https://github.com/user-attachments/assets/a74c60df-3577-4794-a1a6-760eb5278b26)](https://youtu.be/YWiHhwW69s4)
 
 ## Usage/Examples
 
